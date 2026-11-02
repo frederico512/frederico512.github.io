@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A personal website sharing projects, interests, and things I'm learning."
+    />
+    <meta name="theme-color" content="#f7f8fa" />
+    <title>Personal Website | Your Name</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-brand" href="#home" aria-label="Your Name, home">YN<span>.</span></a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <p class="eyebrow">PERSONAL WEBSITE · WORK IN PROGRESS</p>
+          <h1 id="hero-title">Hello, I'm <span>Your Name.</span></h1>
+          <p class="hero-intro">
+            Welcome to my corner of the internet. This is where I'll share a little
+            about myself, the projects I build, and the things I'm learning along the way.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work</a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-decoration" aria-hidden="true"></div>
+      </section>
+
+      <section class="section section-muted" id="about" aria-labelledby="about-title">
+        <div class="container content-grid">
+          <div>
+            <p class="eyebrow">A LITTLE INTRODUCTION</p>
+            <h2 id="about-title">About me</h2>
+          </div>
+          <div class="prose">
+            <p>
+              I'm [write a short introduction about yourself here]. Use this space to
+              explain what you do, what interests you, and what you're curious to learn next.
+            </p>
+            <p>
+              This website will grow as I do. For now, it's a simple place to collect my
+              work and make it easier for people to find out more about me.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">SELECTED WORK</p>
+              <h2 id="projects-title">Projects</h2>
+            </div>
+            <p class="section-description">A few things I've made, explored, or want to share.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-number">01 / PROJECT</p>
+              <h3>Project one</h3>
+              <p>Add a short explanation of this project, what it does, and what you learned.</p>
+              <span class="project-status">Coming soon</span>
+            </article>
+
+            <article class="project-card">
+              <p class="project-number">02 / PROJECT</p>
+              <h3>Project two</h3>
+              <p>Describe another project here. Keep the explanation clear and focused.</p>
+              <span class="project-status">Coming soon</span>
+            </article>
+
+            <article class="project-card">
+              <p class="project-number">03 / PROJECT</p>
+              <h3>Project three</h3>
+              <p>Use this card for a project, experiment, article, or something you're proud of.</p>
+              <span class="project-status">Coming soon</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <div>
+            <p class="eyebrow">SAY HELLO</p>
+            <h2 id="contact-title">Let's connect.</h2>
+            <p class="contact-copy">
+              Have a question, an idea, or just want to say hello? Add your preferred
+              contact details here before publishing.
+            </p>
+          </div>
+          <a class="button button-light" href="mailto:your.email@example.com">
+            your.email@example.com <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span data-current-year>2026</span> Your Name. Built with care.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
